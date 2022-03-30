@@ -2,17 +2,16 @@
 To run this project you have to install NodeJS (npm) and MySQL server on your machine.
 
 To setup the web server:
-cd server
-npm install
-
 Go to the project directory and run the terminal command as follows:
+`` cd server``
+``npm install ``
 
 Change the following in server/dbServicejs if your MySQL server is setup on different port or has different credentials.
 ![Screenshot (20)](https://user-images.githubusercontent.com/54946787/160857171-5638dd11-1125-4ac3-9377-44cad93b5bfe.png)
 
 Now when everything is setup. Run the server:
-cd server
-nodemon app
+``cd server``
+``nodemon app``
 
 If everything is successfull you will the see the text "app is running" and "db is connected" on your terminal. Then open go to client and open index.html.
 
