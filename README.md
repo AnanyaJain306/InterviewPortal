@@ -2,11 +2,10 @@
 To run this project you have to install NodeJS (npm) and MySQL server on your machine.
 
 To setup the web server:
-
-Go to the project directory and run the terminal command as follows:
-
 cd server
 npm install
+
+Go to the project directory and run the terminal command as follows:
 
 Change the following in server/dbServicejs if your MySQL server is setup on different port or has different credentials.
 ![Screenshot (20)](https://user-images.githubusercontent.com/54946787/160857171-5638dd11-1125-4ac3-9377-44cad93b5bfe.png)
